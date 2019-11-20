@@ -33,7 +33,7 @@ public class BusquedaTesoro {
     cuadrante[tesoroX][tesoroY] = TESORO;
     
     // Inicio del juego
-    System.out.println("¡LA BÚSQUEDA DEL TESORO PÉRDIDO!");
+    System.out.println("¡LA BÚSQUEDA DEL TESORO PERDIDO!");
     
     boolean salir = false;
     String c = "";
@@ -82,7 +82,7 @@ public class BusquedaTesoro {
     
     // Se pinta el cuadrante con todas las soluciones
     for (y = 3; y >= 0; y--) {
-      System.out.print(y + " ");
+      System.out.print(y + "|");
       for (x = 0; x < 5; x++) {
         switch(cuadrante[x][y]) {
           case VACIO:
